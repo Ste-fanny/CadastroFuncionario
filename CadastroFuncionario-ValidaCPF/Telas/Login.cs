@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CadastroFuncionario_ValidaCPF.Telas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,30 @@ namespace CadastroFuncionario_ValidaCPF
 
             //Oculta o Formulario
 
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            EmpresaCadastro empresa = new EmpresaCadastro();
+            this.Visible = false;
+            empresa.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Consultar_Empresa empresa = new Consultar_Empresa();
+            this.Visible = false;
+            empresa.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ConsultarFuncionario  consultarFuncionario = new ConsultarFuncionario();
+            this.Visible = false;
+            consultarFuncionario.Show();
             this.Hide();
         }
     }

@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Cadastro.cs">
+    <Compile Update="Telas\Consultar_Empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\EmpresaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\ConsultarFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Login.cs">

@@ -19,11 +19,11 @@ namespace CadastroFuncionario_ValidaCPF
             try
             {
                 Conexao conexao = new Conexao();
-                var comando = conexao.Comando("INSERT INTO Funcionario VALUES (@id,@nome, @data_nascimento, @cpf, @rg, @telefone, @email, @rua, @bairro, @numero, @estado_civil, @funcao, @salario, @estado, @cidade, @complemento)");
+                var comando = conexao.Comando("INSERT INTO Funcionario VALUES (@id,@nome, @data_nas, @cpf, @rg, @telefone, @email, @rua, @bairro, @numero, @estado_civil, @funcao, @salario, @estado, @cidade, @complemento)");
 
                 comando.Parameters.AddWithValue("@id", null);
                 comando.Parameters.AddWithValue("@nome", funcionario.Nome);
-                comando.Parameters.AddWithValue("@data_nascimento", funcionario.Data_nas);
+                comando.Parameters.AddWithValue("@data_nas", funcionario.Data_nas);
                 comando.Parameters.AddWithValue("@cpf", funcionario.Cpf);
                 comando.Parameters.AddWithValue("@rg", funcionario.Rg);
                 comando.Parameters.AddWithValue("@telefone", funcionario.Telefone);
@@ -31,12 +31,12 @@ namespace CadastroFuncionario_ValidaCPF
                 comando.Parameters.AddWithValue("@rua", funcionario.Rua);
                 comando.Parameters.AddWithValue("@bairro", funcionario.Bairro);
                 comando.Parameters.AddWithValue("@numero", funcionario.Numero);
-                comando.Parameters.AddWithValue("@complemento", funcionario.Complemento);
                 comando.Parameters.AddWithValue("@estado_civil", funcionario.Estado_civil);
                 comando.Parameters.AddWithValue("@funcao", funcionario.Funcao);
                 comando.Parameters.AddWithValue("@salario", funcionario.Salario);
                 comando.Parameters.AddWithValue("@estado", funcionario.Estado);
                 comando.Parameters.AddWithValue("@cidade", funcionario.Cidade);
+                comando.Parameters.AddWithValue("@complemento", funcionario.Complemento);
 
                 var resultado = comando.ExecuteNonQuery();
 
@@ -118,7 +118,9 @@ namespace CadastroFuncionario_ValidaCPF
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            ConsultarFuncionario cf = new ConsultarFuncionario();
+            this.Visible = false;
+            cf.Visible = true;
         }
     }
 }
