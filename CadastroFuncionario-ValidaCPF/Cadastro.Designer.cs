@@ -28,498 +28,535 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textRG = new MaskedTextBox();
-            textCPF = new MaskedTextBox();
-            label6 = new Label();
-            textEstadCivil = new ComboBox();
-            button1 = new Button();
-            label7 = new Label();
-            textTelefone = new MaskedTextBox();
-            label10 = new Label();
-            texEmail = new TextBox();
-            label3 = new Label();
-            label11 = new Label();
-            textDataNac = new MaskedTextBox();
-            label5 = new Label();
-            label9 = new Label();
-            texNome = new TextBox();
-            panel1 = new Panel();
-            textComplemento = new TextBox();
-            textCiti = new TextBox();
-            textEstado = new TextBox();
-            textCodigoCep = new TextBox();
-            textBairro = new TextBox();
-            textNcasa = new TextBox();
-            textRuaAv = new TextBox();
-            label20 = new Label();
-            label19 = new Label();
-            label18 = new Label();
-            label17 = new Label();
-            label16 = new Label();
-            label1 = new Label();
-            label12 = new Label();
-            label4 = new Label();
-            label8 = new Label();
-            panel3 = new Panel();
-            textSalario = new TextBox();
-            textFuncao = new ComboBox();
-            label14 = new Label();
-            label13 = new Label();
-            btnCadastrar = new Button();
-            label2 = new Label();
-            panel1.SuspendLayout();
-            panel3.SuspendLayout();
-            SuspendLayout();
+            this.textRG = new System.Windows.Forms.MaskedTextBox();
+            this.textCPF = new System.Windows.Forms.MaskedTextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textEstadCivil = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.texEmail = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.texNome = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textComplemento = new System.Windows.Forms.TextBox();
+            this.textCiti = new System.Windows.Forms.TextBox();
+            this.textEstado = new System.Windows.Forms.TextBox();
+            this.textBairro = new System.Windows.Forms.TextBox();
+            this.textNcasa = new System.Windows.Forms.TextBox();
+            this.textRuaAv = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textSalario = new System.Windows.Forms.TextBox();
+            this.textFuncao = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.SuspendLayout();
             // 
             // textRG
             // 
-            textRG.BorderStyle = BorderStyle.FixedSingle;
-            textRG.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textRG.Location = new Point(47, 347);
-            textRG.Mask = "00,000,000-00";
-            textRG.Name = "textRG";
-            textRG.Size = new Size(110, 22);
-            textRG.TabIndex = 26;
+            this.textRG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textRG.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textRG.Location = new System.Drawing.Point(47, 347);
+            this.textRG.Mask = "00,000,000-00";
+            this.textRG.Name = "textRG";
+            this.textRG.Size = new System.Drawing.Size(110, 22);
+            this.textRG.TabIndex = 26;
             // 
             // textCPF
             // 
-            textCPF.BorderStyle = BorderStyle.FixedSingle;
-            textCPF.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textCPF.Location = new Point(178, 347);
-            textCPF.Mask = "000,000,000-00";
-            textCPF.Name = "textCPF";
-            textCPF.Size = new Size(110, 22);
-            textCPF.TabIndex = 32;
+            this.textCPF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textCPF.Location = new System.Drawing.Point(178, 347);
+            this.textCPF.Mask = "000,000,000-00";
+            this.textCPF.Name = "textCPF";
+            this.textCPF.Size = new System.Drawing.Size(110, 22);
+            this.textCPF.TabIndex = 32;
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.LavenderBlush;
-            label6.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(47, 325);
-            label6.Name = "label6";
-            label6.Size = new Size(27, 19);
-            label6.TabIndex = 20;
-            label6.Text = "RG";
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label6.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(47, 325);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 19);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "RG";
             // 
             // textEstadCivil
             // 
-            textEstadCivil.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textEstadCivil.FormattingEnabled = true;
-            textEstadCivil.Items.AddRange(new object[] { "Casado(a)", "Solteiro(a)", "Viuvo(a)", "Divorciado(a)" });
-            textEstadCivil.Location = new Point(47, 223);
-            textEstadCivil.Name = "textEstadCivil";
-            textEstadCivil.Size = new Size(86, 24);
-            textEstadCivil.TabIndex = 34;
+            this.textEstadCivil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textEstadCivil.FormattingEnabled = true;
+            this.textEstadCivil.Items.AddRange(new object[] {
+            "Casado(a)",
+            "Solteiro(a)",
+            "Viuvo(a)",
+            "Divorciado(a)"});
+            this.textEstadCivil.Location = new System.Drawing.Point(47, 223);
+            this.textEstadCivil.Name = "textEstadCivil";
+            this.textEstadCivil.Size = new System.Drawing.Size(86, 24);
+            this.textEstadCivil.TabIndex = 34;
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.Info;
-            button1.Font = new Font("Microsoft Yi Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(298, 388);
-            button1.Name = "button1";
-            button1.Size = new Size(89, 26);
-            button1.TabIndex = 31;
-            button1.Text = "Cancelar";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(298, 388);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(89, 26);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "Limpar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label7
             // 
-            label7.AutoSize = true;
-            label7.BackColor = Color.LavenderBlush;
-            label7.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(178, 325);
-            label7.Name = "label7";
-            label7.Size = new Size(35, 19);
-            label7.TabIndex = 22;
-            label7.Text = "CPF";
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label7.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(178, 325);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 19);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "CPF";
             // 
             // textTelefone
             // 
-            textTelefone.BorderStyle = BorderStyle.FixedSingle;
-            textTelefone.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textTelefone.Location = new Point(47, 277);
-            textTelefone.Mask = "(00) 0 0000-0000";
-            textTelefone.Name = "textTelefone";
-            textTelefone.Size = new Size(110, 22);
-            textTelefone.TabIndex = 33;
+            this.textTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textTelefone.Location = new System.Drawing.Point(47, 277);
+            this.textTelefone.Mask = "(00) 0 0000-0000";
+            this.textTelefone.Name = "textTelefone";
+            this.textTelefone.Size = new System.Drawing.Size(110, 22);
+            this.textTelefone.TabIndex = 33;
             // 
             // label10
             // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.Transparent;
-            label10.Font = new Font("Century", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(149, 36);
-            label10.Name = "label10";
-            label10.Size = new Size(126, 20);
-            label10.TabIndex = 28;
-            label10.Text = "Dados Pessoal";
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(149, 36);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(129, 20);
+            this.label10.TabIndex = 28;
+            this.label10.Text = "Dados Pessoal";
             // 
             // texEmail
             // 
-            texEmail.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            texEmail.Location = new Point(107, 102);
-            texEmail.Name = "texEmail";
-            texEmail.Size = new Size(219, 22);
-            texEmail.TabIndex = 30;
+            this.texEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.texEmail.Location = new System.Drawing.Point(107, 102);
+            this.texEmail.Name = "texEmail";
+            this.texEmail.Size = new System.Drawing.Size(219, 22);
+            this.texEmail.TabIndex = 30;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.LavenderBlush;
-            label3.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(47, 200);
-            label3.Name = "label3";
-            label3.Size = new Size(86, 19);
-            label3.TabIndex = 16;
-            label3.Text = "Estado Civil";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label3.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(47, 200);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 19);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Estado Civil";
             // 
             // label11
             // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.Transparent;
-            label11.Font = new Font("Century", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(497, 124);
-            label11.Name = "label11";
-            label11.Size = new Size(159, 20);
-            label11.TabIndex = 25;
-            label11.Text = "Dados De Enderço";
-            // 
-            // textDataNac
-            // 
-            textDataNac.BorderStyle = BorderStyle.FixedSingle;
-            textDataNac.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textDataNac.Location = new Point(47, 164);
-            textDataNac.Mask = "00/00/0000";
-            textDataNac.Name = "textDataNac";
-            textDataNac.Size = new Size(72, 22);
-            textDataNac.TabIndex = 29;
-            textDataNac.ValidatingType = typeof(DateTime);
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(497, 124);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(161, 20);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Dados De Enderço";
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.LavenderBlush;
-            label5.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(47, 255);
-            label5.Name = "label5";
-            label5.Size = new Size(64, 19);
-            label5.TabIndex = 18;
-            label5.Text = "Telefone";
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label5.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(47, 255);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 19);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Telefone";
             // 
             // label9
             // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Century", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(495, 36);
-            label9.Name = "label9";
-            label9.Size = new Size(167, 20);
-            label9.TabIndex = 23;
-            label9.Text = "Dados Empresarial";
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(495, 36);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(161, 20);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "Dados Empresarial";
             // 
             // texNome
             // 
-            texNome.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            texNome.Location = new Point(107, 66);
-            texNome.Name = "texNome";
-            texNome.Size = new Size(219, 22);
-            texNome.TabIndex = 27;
+            this.texNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.texNome.Location = new System.Drawing.Point(107, 66);
+            this.texNome.Name = "texNome";
+            this.texNome.Size = new System.Drawing.Size(219, 22);
+            this.texNome.TabIndex = 27;
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Transparent;
-            panel1.BackgroundImageLayout = ImageLayout.None;
-            panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.Controls.Add(textComplemento);
-            panel1.Controls.Add(textCiti);
-            panel1.Controls.Add(textEstado);
-            panel1.Controls.Add(textCodigoCep);
-            panel1.Controls.Add(textBairro);
-            panel1.Controls.Add(textNcasa);
-            panel1.Controls.Add(textRuaAv);
-            panel1.Controls.Add(label20);
-            panel1.Controls.Add(label19);
-            panel1.Controls.Add(label18);
-            panel1.Controls.Add(label17);
-            panel1.Controls.Add(label16);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(label12);
-            panel1.Location = new Point(410, 142);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(343, 221);
-            panel1.TabIndex = 21;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.textComplemento);
+            this.panel1.Controls.Add(this.textCiti);
+            this.panel1.Controls.Add(this.textEstado);
+            this.panel1.Controls.Add(this.textBairro);
+            this.panel1.Controls.Add(this.textNcasa);
+            this.panel1.Controls.Add(this.textRuaAv);
+            this.panel1.Controls.Add(this.label20);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Location = new System.Drawing.Point(410, 142);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(343, 180);
+            this.panel1.TabIndex = 21;
             // 
             // textComplemento
             // 
-            textComplemento.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textComplemento.Location = new Point(59, 192);
-            textComplemento.Name = "textComplemento";
-            textComplemento.Size = new Size(173, 22);
-            textComplemento.TabIndex = 20;
+            this.textComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textComplemento.Location = new System.Drawing.Point(156, 134);
+            this.textComplemento.Name = "textComplemento";
+            this.textComplemento.Size = new System.Drawing.Size(173, 22);
+            this.textComplemento.TabIndex = 20;
             // 
             // textCiti
             // 
-            textCiti.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textCiti.Location = new Point(196, 133);
-            textCiti.Name = "textCiti";
-            textCiti.Size = new Size(133, 22);
-            textCiti.TabIndex = 15;
+            this.textCiti.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textCiti.Location = new System.Drawing.Point(196, 81);
+            this.textCiti.Name = "textCiti";
+            this.textCiti.Size = new System.Drawing.Size(133, 22);
+            this.textCiti.TabIndex = 15;
             // 
             // textEstado
             // 
-            textEstado.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textEstado.Location = new Point(196, 80);
-            textEstado.Name = "textEstado";
-            textEstado.Size = new Size(133, 22);
-            textEstado.TabIndex = 16;
-            // 
-            // textCodigoCep
-            // 
-            textCodigoCep.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textCodigoCep.Location = new Point(196, 25);
-            textCodigoCep.Name = "textCodigoCep";
-            textCodigoCep.Size = new Size(133, 22);
-            textCodigoCep.TabIndex = 17;
+            this.textEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textEstado.Location = new System.Drawing.Point(196, 26);
+            this.textEstado.Name = "textEstado";
+            this.textEstado.Size = new System.Drawing.Size(133, 22);
+            this.textEstado.TabIndex = 16;
             // 
             // textBairro
             // 
-            textBairro.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBairro.Location = new Point(3, 134);
-            textBairro.Name = "textBairro";
-            textBairro.Size = new Size(114, 22);
-            textBairro.TabIndex = 18;
+            this.textBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBairro.Location = new System.Drawing.Point(3, 134);
+            this.textBairro.Name = "textBairro";
+            this.textBairro.Size = new System.Drawing.Size(114, 22);
+            this.textBairro.TabIndex = 18;
             // 
             // textNcasa
             // 
-            textNcasa.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textNcasa.Location = new Point(3, 81);
-            textNcasa.Name = "textNcasa";
-            textNcasa.Size = new Size(115, 22);
-            textNcasa.TabIndex = 19;
+            this.textNcasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textNcasa.Location = new System.Drawing.Point(3, 81);
+            this.textNcasa.Name = "textNcasa";
+            this.textNcasa.Size = new System.Drawing.Size(115, 22);
+            this.textNcasa.TabIndex = 19;
             // 
             // textRuaAv
             // 
-            textRuaAv.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textRuaAv.Location = new Point(3, 25);
-            textRuaAv.Name = "textRuaAv";
-            textRuaAv.Size = new Size(118, 22);
-            textRuaAv.TabIndex = 15;
+            this.textRuaAv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textRuaAv.Location = new System.Drawing.Point(3, 25);
+            this.textRuaAv.Name = "textRuaAv";
+            this.textRuaAv.Size = new System.Drawing.Size(118, 22);
+            this.textRuaAv.TabIndex = 15;
             // 
             // label20
             // 
-            label20.AutoSize = true;
-            label20.BackColor = Color.LavenderBlush;
-            label20.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label20.Location = new Point(3, 59);
-            label20.Name = "label20";
-            label20.Size = new Size(64, 19);
-            label20.TabIndex = 8;
-            label20.Text = "Número";
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label20.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(3, 59);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(64, 19);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Número";
             // 
             // label19
             // 
-            label19.AutoSize = true;
-            label19.BackColor = Color.LavenderBlush;
-            label19.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label19.Location = new Point(3, 112);
-            label19.Name = "label19";
-            label19.Size = new Size(104, 19);
-            label19.TabIndex = 7;
-            label19.Text = "Bairro/Região";
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label19.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(3, 112);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(104, 19);
+            this.label19.TabIndex = 7;
+            this.label19.Text = "Bairro/Região";
             // 
             // label18
             // 
-            label18.AutoSize = true;
-            label18.BackColor = Color.LavenderBlush;
-            label18.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label18.Location = new Point(196, 111);
-            label18.Name = "label18";
-            label18.Size = new Size(126, 19);
-            label18.TabIndex = 6;
-            label18.Text = "Cidade/Município";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.BackColor = Color.LavenderBlush;
-            label17.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.Location = new Point(197, 3);
-            label17.Name = "label17";
-            label17.Size = new Size(133, 19);
-            label17.TabIndex = 5;
-            label17.Text = "Código Postal/CEP";
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label18.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(196, 59);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(126, 19);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Cidade/Município";
             // 
             // label16
             // 
-            label16.AutoSize = true;
-            label16.BackColor = Color.LavenderBlush;
-            label16.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.Location = new Point(196, 56);
-            label16.Name = "label16";
-            label16.Size = new Size(54, 19);
-            label16.TabIndex = 4;
-            label16.Text = "Estado";
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label16.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(196, 4);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(54, 19);
+            this.label16.TabIndex = 4;
+            this.label16.Text = "Estado";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.LavenderBlush;
-            label1.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(58, 170);
-            label1.Name = "label1";
-            label1.Size = new Size(173, 19);
-            label1.TabIndex = 3;
-            label1.Text = "Complemento (opcional)";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label1.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(156, 112);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(173, 19);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Complemento (opcional)";
             // 
             // label12
             // 
-            label12.AutoSize = true;
-            label12.BackColor = Color.LavenderBlush;
-            label12.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(3, 4);
-            label12.Name = "label12";
-            label12.Size = new Size(93, 19);
-            label12.TabIndex = 2;
-            label12.Text = "Rua/Avenida";
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label12.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(3, 4);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(93, 19);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "Rua/Avenida";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.LavenderBlush;
-            label4.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(47, 105);
-            label4.Name = "label4";
-            label4.Size = new Size(52, 19);
-            label4.TabIndex = 17;
-            label4.Text = "E-mail";
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label4.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(47, 105);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 19);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "E-mail";
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.LavenderBlush;
-            label8.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(47, 142);
-            label8.Name = "label8";
-            label8.Size = new Size(145, 19);
-            label8.TabIndex = 24;
-            label8.Text = "Data De Nascimento";
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label8.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(47, 142);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(145, 19);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Data De Nascimento";
             // 
             // panel3
             // 
-            panel3.BackColor = Color.Transparent;
-            panel3.BackgroundImageLayout = ImageLayout.None;
-            panel3.BorderStyle = BorderStyle.Fixed3D;
-            panel3.Controls.Add(textSalario);
-            panel3.Controls.Add(textFuncao);
-            panel3.Controls.Add(label14);
-            panel3.Controls.Add(label13);
-            panel3.Location = new Point(443, 59);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(267, 64);
-            panel3.TabIndex = 19;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.textSalario);
+            this.panel3.Controls.Add(this.textFuncao);
+            this.panel3.Controls.Add(this.label14);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Location = new System.Drawing.Point(443, 59);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(267, 64);
+            this.panel3.TabIndex = 19;
             // 
             // textSalario
             // 
-            textSalario.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textSalario.Location = new Point(131, 28);
-            textSalario.Name = "textSalario";
-            textSalario.Size = new Size(123, 22);
-            textSalario.TabIndex = 21;
+            this.textSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textSalario.Location = new System.Drawing.Point(131, 28);
+            this.textSalario.Name = "textSalario";
+            this.textSalario.Size = new System.Drawing.Size(123, 22);
+            this.textSalario.TabIndex = 21;
             // 
             // textFuncao
             // 
-            textFuncao.Font = new Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textFuncao.FormattingEnabled = true;
-            textFuncao.Items.AddRange(new object[] { "Casado(a)", "Solteiro(a)", "Viuvo(a)", "Divorciado(a)" });
-            textFuncao.Location = new Point(5, 28);
-            textFuncao.Name = "textFuncao";
-            textFuncao.Size = new Size(110, 24);
-            textFuncao.TabIndex = 14;
+            this.textFuncao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textFuncao.FormattingEnabled = true;
+            this.textFuncao.Items.AddRange(new object[] {
+            "Desenvolvedor de software",
+            "Analista de dados",
+            "",
+            "Especialista em segurança cibernética",
+            "Administrador de sistemas",
+            "",
+            "Saúde ",
+            "",
+            "Enfermeiro especializado em UTI",
+            "6",
+            " Fisioterapeuta",
+            "",
+            " Nutricionista clínico",
+            "",
+            " Psicólogo clínico",
+            "",
+            "",
+            " Analista financeiro",
+            "",
+            "Gerente de marketing digital",
+            "",
+            "Consultor de gestão",
+            "",
+            "",
+            "Construção e Engenharia:",
+            "Engenheiro civil",
+            "",
+            "Arquiteto",
+            "",
+            "Mecânico de aeronaves",
+            "",
+            "Técnico em eletrônica",
+            "",
+            "",
+            "Professor de inglês como segunda língua (ESL)",
+            "",
+            " Instrutor de música",
+            "",
+            "Orientador educacional",
+            "",
+            "Professor de educação física"});
+            this.textFuncao.Location = new System.Drawing.Point(5, 28);
+            this.textFuncao.Name = "textFuncao";
+            this.textFuncao.Size = new System.Drawing.Size(110, 24);
+            this.textFuncao.TabIndex = 14;
             // 
             // label14
             // 
-            label14.AutoSize = true;
-            label14.BackColor = Color.LavenderBlush;
-            label14.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label14.Location = new Point(131, 6);
-            label14.Name = "label14";
-            label14.Size = new Size(56, 19);
-            label14.TabIndex = 4;
-            label14.Text = "Salário";
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label14.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(131, 6);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(56, 19);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Salário";
             // 
             // label13
             // 
-            label13.AutoSize = true;
-            label13.BackColor = Color.LavenderBlush;
-            label13.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(5, 6);
-            label13.Name = "label13";
-            label13.Size = new Size(58, 19);
-            label13.TabIndex = 3;
-            label13.Text = "Função";
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label13.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(5, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(58, 19);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Função";
             // 
             // btnCadastrar
             // 
-            btnCadastrar.BackColor = SystemColors.GradientInactiveCaption;
-            btnCadastrar.Font = new Font("Microsoft Yi Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnCadastrar.ForeColor = SystemColors.ActiveCaptionText;
-            btnCadastrar.Location = new Point(419, 388);
-            btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(89, 26);
-            btnCadastrar.TabIndex = 15;
-            btnCadastrar.Text = "Cadastrar";
-            btnCadastrar.UseVisualStyleBackColor = false;
-            btnCadastrar.Click += btnCadastrar_Click;
+            this.btnCadastrar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCadastrar.Location = new System.Drawing.Point(419, 388);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(89, 26);
+            this.btnCadastrar.TabIndex = 15;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click_1);
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.LavenderBlush;
-            label2.Font = new Font("Caladea", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(47, 69);
-            label2.Name = "label2";
-            label2.Size = new Size(48, 19);
-            label2.TabIndex = 14;
-            label2.Text = "Nome";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label2.Font = new System.Drawing.Font("Caladea", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(47, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 19);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Nome";
             // 
-            // Form1
+            // dateTimePicker1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textRG);
-            Controls.Add(textCPF);
-            Controls.Add(label6);
-            Controls.Add(textEstadCivil);
-            Controls.Add(button1);
-            Controls.Add(label7);
-            Controls.Add(textTelefone);
-            Controls.Add(label10);
-            Controls.Add(texEmail);
-            Controls.Add(label3);
-            Controls.Add(label11);
-            Controls.Add(textDataNac);
-            Controls.Add(label5);
-            Controls.Add(label9);
-            Controls.Add(texNome);
-            Controls.Add(panel1);
-            Controls.Add(label4);
-            Controls.Add(label8);
-            Controls.Add(panel3);
-            Controls.Add(btnCadastrar);
-            Controls.Add(label2);
-            Name = "Form1";
-            Text = "Form1";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.dateTimePicker1.Location = new System.Drawing.Point(47, 164);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.TabIndex = 35;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(664, 388);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(89, 26);
+            this.button2.TabIndex = 36;
+            this.button2.Text = "Consultar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Cadastro
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textRG);
+            this.Controls.Add(this.textCPF);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textEstadCivil);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textTelefone);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.texEmail);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.texNome);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.label2);
+            this.Name = "Cadastro";
+            this.Text = "Form1";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -535,7 +572,6 @@
         private TextBox texEmail;
         private Label label3;
         private Label label11;
-        private MaskedTextBox textDataNac;
         private Label label5;
         private Label label9;
         private TextBox texNome;
@@ -543,14 +579,12 @@
         private TextBox textComplemento;
         private TextBox textCiti;
         private TextBox textEstado;
-        private TextBox textCodigoCep;
         private TextBox textBairro;
         private TextBox textNcasa;
         private TextBox textRuaAv;
         private Label label20;
         private Label label19;
         private Label label18;
-        private Label label17;
         private Label label16;
         private Label label1;
         private Label label12;
@@ -563,5 +597,7 @@
         private Label label13;
         private Button btnCadastrar;
         private Label label2;
+        private DateTimePicker dateTimePicker1;
+        private Button button2;
     }
 }
